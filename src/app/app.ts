@@ -1,9 +1,10 @@
+import { Interpolation } from './01_interpolation/interpolation';
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,Interpolation],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
