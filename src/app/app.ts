@@ -4,10 +4,11 @@ import { RouterOutlet } from '@angular/router';
 import { CustomComponent } from './02_custom_component/custom-component';
 import { FunctionCallOnBtnClick } from './03-function-call-on-btn-click/function-call-on-btn-click';
 import { Datatype } from './04_datatype/datatype';
+import { CounterApp } from './05-counter-app/counter-app';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Interpolation,CustomComponent,FunctionCallOnBtnClick,Datatype],
+  imports: [RouterOutlet,Interpolation,CustomComponent,FunctionCallOnBtnClick,Datatype,CounterApp],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
